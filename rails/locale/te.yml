@@ -1,0 +1,196 @@
+---
+hi:
+  activerecord:
+    errors:
+      messages:
+        record_invalid: 'రికార్డ్ చెల్లనిది: %{errors}'
+  date:
+    abbr_day_names:
+    - ఆది
+    - సోమ
+    - మంగళ
+    - బుధ
+    - గరు
+    - శుక్ర
+    - శని
+    abbr_month_names:
+    -
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+    day_names:
+    - ఆదివారం
+    - సోమవారం
+    - మంగళవారం
+    - బుధవారం
+    - గరువారం
+    - శుక్రవారం
+    - శనివారం
+    formats:
+      default: "%d-%m-%Y"
+      long: "%B %d, %Y"
+      short: "%b %d"
+    month_names:
+    -
+   - జనవరి
+   - ఫిబ్రవరి
+   - మార్చి
+   - ఏప్రిల్
+   - మే
+   - జూన్
+   - జూలై
+   - ఆగస్టు
+   - సెప్టెంబర్
+   - అక్టోబర్
+   - నవంబర్
+   - డిసెంబర్
+    order:
+    - :day
+    - :month
+    - :year
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: సుమారు ఒక గంట
+        other: సుమారు %{count} గంట
+      about_x_months:
+        one: సుమారు 1 నెల
+        other: సుమారు %{count} నెల
+      about_x_years:
+        one: సుమారు 1 సంవత్సరం
+        other: సుమారు %{count} సంవత్సరం
+      almost_x_years:
+        one: సుమారు ఒక సంవత్సరం
+        other: సుమారు %{count} సంవత్సరం
+      half_a_minute: ఒక సగం నిమిషం
+      less_than_x_minutes:
+        one: ఒక నిమిషం కన్నా తక్కువ 
+        other: "%{count} నిమిషం కన్నా తక్కువ"
+      less_than_x_seconds:
+        one: ఒక సెకను కన్నా తక్కువ
+        other: "%{count}  సెకను కన్నా తక్కువ"
+      over_x_years:
+        one: ఒక సంవత్సరం కంటే ఎక్కువ
+        other: "%{count} సంవత్సరం కంటే ఎక్కువ"
+      x_days:
+        one: ఒక రోజు
+        other: "%{count} రోజు"
+      x_minutes:
+        one: ఒక నిమిషం
+        other: "%{count} నిమిషం"
+      x_months:
+        one: ఒక నెల
+        other: "%{count} నెల"
+      x_seconds:
+        one: ఒక సెకను
+        other: "%{count} సెకను"
+    prompts:
+      day: రోజు
+      hour: గంట
+      minute: నిమిషం
+      month:  నెల
+      second: సెకను
+      year: సంవత్సరం
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      accepted: ఆమోదించ బడాలి 
+      blank: ఖాళి లు పూర్తి చేయాలి 
+      confirmation: నిర్ధారణ
+      empty: ఖాళీలు  పూర్తిచేయాలి 
+      equal_to: "%{count} సరిపడా ఉండాలి "
+      even: సమానంగ వుంటాలి
+      exclusion: వదిలిపెట్టడం
+      greater_than: "%{count} అంతకన్నా ఎక్కువ ఉండాలి "
+      greater_than_or_equal_to: "%{count} ఎక్కువ లేదా సమానంగా"
+      inclusion : చేర్చడం
+      invalid: చెల్లని
+      less_than: "%{count} అంత కంటే తక్కువ"
+      less_than_or_equal_to: "%{count} తక్కువ లేదా సమానంగా"
+      not_a_number: సంఖ్య కాదు 
+      not_an_integer: పూర్ణాంకం కాదు
+      odd: బేసి
+      taken: తీసుకో బడినది 
+      too_long: చాలా పొడవుగా వున్నది( పొడవుగా %{count} వున్నది)
+      too_short: చాలా చిన్నగా వున్నది( (చిన్నగా %{count} వున్నది)
+  క్షరాలు గొప్ప ఉండాలి)
+    template:
+      body: 'క్రింది ఖాళీలలో ఒక సమస్య ఉంది:'
+      header:
+        one: లోపం దీనికి జరగలేదు సేవ్ %{model} లోపం దీనికి జరగలేదు సేవ్
+        other: లోపం దీనికి జరగలేదు సేవ్ %{model} లోపం దీనికి జరగలేదు సేవ్ %{count} లోపం దీనికి జరగలేదు సేవ్
+  helpers:
+    select:
+      prompt: దయచేసి ఎంచుకోండి
+    submit:
+      create: "%{model} సృష్టించు"
+      submit: "%{model} submit"
+      update: "%{model} update"
+  number:
+    currency:
+      format:
+        delimiter: ","
+        format: "%u%n"
+        precision: 2
+        separator: "."
+        significant: false
+        strip_insignificant_zeros: false
+        unit: "₹"
+    format:
+      delimiter: ","
+      precision: 3
+      separator: "."
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion: బిలియన్
+          million: మిలియన్
+          quadrillion: కోట్లు 
+          thousand: థౌజండ్
+          trillion: ట్రిలియన్
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: ", మరియు "
+      two_words_connector: " మరియు "
+      words_connector: ", "
+  time:
+    am: am
+    formats:
+      default: "%a, %d %b %Y %H:%M:%S %z"
+      long: "%B %d, %Y %H:%M"
+      short: "%d %b %H:%M"
+pm: pm
